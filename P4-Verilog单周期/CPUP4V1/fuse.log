@@ -1,0 +1,43 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/co-eda/Documents/ise/CPUP4V1/tb_isim_beh.exe" -prj "/home/co-eda/Documents/ise/CPUP4V1/tb_beh.prj" "work.tb" "work.glbl" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/co-eda/Documents/ise/CPUP4V1/PC.v" into library work
+Analyzing Verilog file "/home/co-eda/Documents/ise/CPUP4V1/NPC.v" into library work
+Analyzing Verilog file "/home/co-eda/Documents/ise/CPUP4V1/mux.v" into library work
+Analyzing Verilog file "/home/co-eda/Documents/ise/CPUP4V1/IM.v" into library work
+Analyzing Verilog file "/home/co-eda/Documents/ise/CPUP4V1/GRF.v" into library work
+Analyzing Verilog file "/home/co-eda/Documents/ise/CPUP4V1/EXT.v" into library work
+Analyzing Verilog file "/home/co-eda/Documents/ise/CPUP4V1/DM.v" into library work
+Analyzing Verilog file "/home/co-eda/Documents/ise/CPUP4V1/ALU.v" into library work
+Analyzing Verilog file "/home/co-eda/Documents/ise/CPUP4V1/datapath.v" into library work
+Analyzing Verilog file "/home/co-eda/Documents/ise/CPUP4V1/control.v" into library work
+Analyzing Verilog file "/home/co-eda/Documents/ise/CPUP4V1/mips.v" into library work
+Analyzing Verilog file "/home/co-eda/Documents/ise/CPUP4V1/tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 83092 KB
+Fuse CPU Usage: 880 ms
+Compiling module control
+Compiling module PC
+Compiling module NPC
+Compiling module IM
+Compiling module RegDstmux
+Compiling module GRF
+Compiling module EXT
+Compiling module ALUSrcmux
+Compiling module ALU
+Compiling module DM
+Compiling module toRegmux
+Compiling module datapath
+Compiling module mips
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 15 Verilog Units
+Built simulation executable /home/co-eda/Documents/ise/CPUP4V1/tb_isim_beh.exe
+Fuse Memory Usage: 86208 KB
+Fuse CPU Usage: 920 ms
+GCC CPU Usage: 150 ms
